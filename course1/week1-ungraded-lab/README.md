@@ -57,6 +57,8 @@ conda create --name mlep-w1-lab python=3.7
 After successfully creating the environment, you need to activate it by issuing this command:
  
 ```bash
+conda info | grep -i 'base environment'
+source base environment/etc/profile.d/conda.sh   (If conda activate show error on bash shell)
 conda activate mlep-w1-lab
 ```
  
